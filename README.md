@@ -137,13 +137,6 @@ In a full devloped project and a better implemented GUI, A bank would use this m
 - tkinter
 - customertkinter
 
-## 🤝 Contributing
-
-Instructions for how to contribute to the project, along with guidelines and a code of conduct.
-
-## 📝 License
-
-This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## 🙏 Coming to an End
 
