@@ -114,7 +114,13 @@ The goal is to create a Machine Learning Model that is able to have a high accur
   
   ### Example
   
-  <img src="application-empty.png" alt="empty application">
+  
+  <img src="images/application-empty.png" alt="empty application">
+  
+  <img src="images/application-filled.png" alt="filled application">
+
+  <img src="images/response.png" alt="response">
+
 
   
 </details>
