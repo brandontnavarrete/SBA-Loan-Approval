@@ -1,6 +1,7 @@
 <h1 align="center">🌟 SBA Loan Underwriting System"  🌟</h1>
 
 <p align="center">
+  <a href="#context">Context</a> •
   <a href="#about">About</a> •
   <a href="#context">Context</a> •
   <a href="#getting-started">Getting Started</a> •
@@ -11,9 +12,21 @@
 
 ## 🚀 Context
 
+The dataset is from the U.S. Small Business Administration (SBA)
+
+The U.S. SBA was founded in 1953 on the principle of promoting and assisting small enterprises in the U.S. credit market (SBA Overview and History, US Small Business Administration (2015)). Small businesses have been a primary source of job creation in the United States; therefore, fostering small business formation and growth has social benefits by creating job opportunities and reducing unemployment.
+
+There have been many success stories of start-ups receiving SBA loan guarantees such as FedEx and Apple Computer. However, there have also been stories of small businesses and/or start-ups that have defaulted on their SBA-guaranteed loans.
+
 ## 🚀 About
 
-Brief description of what this project does and who it's for. Include a screenshot or demo if possible.
+This project looks at over 899164 businesses that have an SBA loan. Each row is a specific business and every column some information about that business.
+The goal is to create a Machine Learning Model that is able to have a high accuracy in predicting if a business is a safe investment.
+# Deliverables
+* Notebook views to follow work process and navigate decision-making process
+* Machine Learning Model
+* GUI to run model outputs
+
 
 <details>
   <summary><b>📖 Table of Contents</b> (click to expand)</summary>
