@@ -3,7 +3,6 @@
 <p align="center">
   <a href="#context">Context</a> •
   <a href="#about">About</a> •
-  <a href="#context">Context</a> •
   <a href="#getting-started">Getting Started</a> •
   <a href="#usage">Usage</a> •
   <a href="#contributing">Contributing</a> •
