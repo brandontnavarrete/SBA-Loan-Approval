@@ -52,6 +52,9 @@ The goal is to create a Machine Learning Model that is able to have a high accur
   - Numpy
   - Pandas
   - re
+  - seaborn
+  - matplotlib
+  - plotly
   - xgboost
   - tkinter
   - random forest
@@ -73,19 +76,41 @@ The goal is to create a Machine Learning Model that is able to have a high accur
   
   #### Wrangle
   
-  - Explain how to preprocess the data using the wrangle scripts.
+  - Begin with Kaggle dataset. [https://www.kaggle.com/datasets/mirbektoktogaraev/should-this-loan-be-approved-or-denied]
+  - Handle missing values
+  - Drop Columns that aren't helpful or columns that would contain data leakage
+  - Handle data types / date time for exploration
+  
+  Once I had a dataframe that look clean and managable, I saved it to a csv named ("explore.csv").
+  
   
   #### Explore
   
-  - Explain how to explore the data using the explore scripts.
+  - Compared target variable count, there are more good standing accounts than charged off accounts.
+  - Checked for difference between `target` accounts ( term length, franchise status,...).
+  
+  I recommend creating more pre-determined questions before exploration. I plan on taking this dataset to Tableau and PowerBi. I created a csv to go further in to modeling.
   
   #### Model
   
-  - Explain how to train and evaluate the model using the model scripts.
+  - Create and X and y split, where X is your features you want to model on and y is your dependent feature.
+  - Split the data appropriately. I chose train and test for cross validation.
+  - Scale data appropriately. (StandardScaler*).
+  - Grid_search helps fine tune a models performance.
+  _ (Find Your Best Model With Your Best Features)
+  
+  I checked my feature importance to see what was helping or hurting model performance, handled each feature as needed.
   
   #### GUI
   
-  - Explain how to run the GUI and interact with the model.
+  - Create a function that can interact with tkinter frame. (.get)
+  _ Run the model in the function.
+  - Scale .get data and fit to model
+  - Function creates a new tkinter frame to display result
+  
+  - Create the main interface
+  - ("I followed this youtube video for a quick guide. NeuralNine")[https://youtu.be/iM3kjbbKHQU]
+  
   
   ### Example
   
