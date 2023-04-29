@@ -138,7 +138,7 @@ In a full devloped project and a better implemented GUI, A bank would use this m
 - customertkinter
 
 
-## 🙏 Coming to an End
+## 🙏 Coming to an End 
 
 The goal of the project was accomplished! 
 - the model has A 95% accuracy in determining wether or not a business, if given an SBA loan, will be likely to default.
