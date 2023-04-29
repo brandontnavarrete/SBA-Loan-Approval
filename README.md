@@ -114,7 +114,8 @@ The goal is to create a Machine Learning Model that is able to have a high accur
   
   ### Example
   
-  - Provide an example command or code snippet to run the project.
+  <img src="application-empty.png" alt="empty application">
+
   
 </details>
 
