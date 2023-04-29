@@ -22,10 +22,10 @@ There have been many success stories of start-ups receiving SBA loan guarantees 
 
 This project looks at over 899164 businesses that have an SBA loan. Each row is a specific business and every column some information about that business.
 The goal is to create a Machine Learning Model that is able to have a high accuracy in predicting if a business is a safe investment.
-# Deliverables
-* Notebook views to follow work process and navigate decision-making process
-* Machine Learning Model
-* GUI to run model outputs
+  - Deliverable
+    * Notebook views to follow work process and navigate decision-making process
+    * Machine Learning Model
+    * GUI to run model outputs
 
 
 <details>
@@ -42,7 +42,56 @@ The goal is to create a Machine Learning Model that is able to have a high accur
 
 ## 📦 Getting Started
 
-Instructions for getting the project up and running on your local machine. Include prerequisites, installation instructions, and any other relevant information.
+<details>
+  <summary><b>Instructions for Getting Started</b> (click to expand)</summary>
+  
+  ### Prerequisites
+  
+
+  - Jupyter Notebook
+  - Numpy
+  - Pandas
+  - re
+  - xgboost
+  - tkinter
+  - random forest
+  - grid search
+  
+  
+  ### Installation
+  
+  1. Clone the repository: 
+     ```
+     git clone https://github.com/yourusername/yourproject.git
+     ```
+  2. Install the required packages: 
+     ```
+     !pip install custometkinter
+     ```
+     
+  ### Usage
+  
+  #### Wrangle
+  
+  - Explain how to preprocess the data using the wrangle scripts.
+  
+  #### Explore
+  
+  - Explain how to explore the data using the explore scripts.
+  
+  #### Model
+  
+  - Explain how to train and evaluate the model using the model scripts.
+  
+  #### GUI
+  
+  - Explain how to run the GUI and interact with the model.
+  
+  ### Example
+  
+  - Provide an example command or code snippet to run the project.
+  
+</details>
 
 ## 🎈 Usage
 
