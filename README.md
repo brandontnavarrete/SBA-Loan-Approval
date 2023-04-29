@@ -146,7 +146,9 @@ Instructions for how to contribute to the project, along with guidelines and a c
 
 This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
 
-## 🙏 Acknowledgements
+## 🙏 Coming to an End
 
-Acknowledgments and thank you messages. 
+The goal of the project was accomplished! 
+- the model has A 95% accuracy in determining wether or not a business, if given an SBA loan, will be likely to default.
+- the gui created with tkinter looks promising to take to full  development.
 
