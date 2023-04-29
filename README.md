@@ -65,7 +65,7 @@ The goal is to create a Machine Learning Model that is able to have a high accur
   
   1. Clone the repository: 
      ```
-     git clone [git@github.com:brandontnavarrete/SBA-Loan-Approval.git](https://github.com/brandontnavarrete/SBA-Loan-Approval)
+     git clone [git@github.com:brandontnavarrete/SBA-Loan-Approval.git]
      ```
   2. Install the required packages: 
      ```
