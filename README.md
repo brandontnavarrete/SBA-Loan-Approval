@@ -114,11 +114,13 @@ The goal is to create a Machine Learning Model that is able to have a high accur
   
   ### Example
   
-  
+  * An empty application prompt for A loan officer
   <img src="images/application-empty.png" alt="empty application">
   
+  * An application that holds information about an applicant
   <img src="images/application-filled.png" alt="filled application">
 
+  * A response from the model. 0 = safe bet, 1 = likely to default
   <img src="images/response.png" alt="response">
 
 
@@ -131,7 +133,10 @@ In a full devloped project and a better implemented GUI, A bank would use this m
 
 ## ⚒️ Built With
 
-- List the technologies used in the project (e.g. programming languages, frameworks, libraries, etc.)
+- python
+- jupyter notebook
+- tkinter
+- customertkinter
 
 ## 🤝 Contributing
 
