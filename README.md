@@ -109,7 +109,7 @@ The goal is to create a Machine Learning Model that is able to have a high accur
   - Function creates a new tkinter frame to display result
   
   - Create the main interface
-  - ("I followed this youtube video for a quick guide. NeuralNine")[https://youtu.be/iM3kjbbKHQU]
+  -[I followed this youtube video for a quick guide. NeuralNine](https://youtu.be/iM3kjbbKHQU)
   
   
   ### Example
@@ -120,7 +120,7 @@ The goal is to create a Machine Learning Model that is able to have a high accur
 
 ## 🎈 Usage
 
-Examples of how to use the project, with screenshots or code snippets if possible.
+In a full devloped project and a better implemented GUI, A bank would use this model as an underlying evaluation to determine if an applicant is a safe investment. As a financial loan officer / advisor, this gives model gives them a new tool or safety net to keep a banks saftey score managed properly.
 
 ## ⚒️ Built With
 
