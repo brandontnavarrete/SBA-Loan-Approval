@@ -2,11 +2,14 @@
 
 <p align="center">
   <a href="#about">About</a> •
+  <a href="#context">Context</a> •
   <a href="#getting-started">Getting Started</a> •
   <a href="#usage">Usage</a> •
   <a href="#contributing">Contributing</a> •
   <a href="#license">License</a>
 </p>
+
+## 🚀 Context
 
 ## 🚀 About
 
