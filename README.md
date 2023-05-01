@@ -3,7 +3,6 @@
 <p align="center">
   <a href="#context">Context</a> •
   <a href="#about">About</a> •
-  <a href="#context">Context</a> •
   <a href="#getting-started">Getting Started</a> •
   <a href="#usage">Usage</a> •
   <a href="#contributing">Contributing</a> •
@@ -34,9 +33,8 @@ The goal is to create a Machine Learning Model that is able to have a high accur
     <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#built-with">Built With</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
+    
+    <li><a href="#Coming to an End">Acknowledgements</a></li>
   </ul>
 </details>
 
@@ -114,7 +112,16 @@ The goal is to create a Machine Learning Model that is able to have a high accur
   
   ### Example
   
-  - Provide an example command or code snippet to run the project.
+  * An empty application prompt for A loan officer
+  <img src="images/application-empty.png" alt="empty application">
+  
+  * An application that holds information about an applicant
+  <img src="images/application-filled.png" alt="filled application">
+
+  * A response from the model. 0 = safe bet, 1 = likely to default
+  <img src="images/response.png" alt="response">
+
+
   
 </details>
 
@@ -124,17 +131,15 @@ In a full devloped project and a better implemented GUI, A bank would use this m
 
 ## ⚒️ Built With
 
-- List the technologies used in the project (e.g. programming languages, frameworks, libraries, etc.)
+- python
+- jupyter notebook
+- tkinter
+- customertkinter
 
-## 🤝 Contributing
 
-Instructions for how to contribute to the project, along with guidelines and a code of conduct.
+## 🙏 Coming to an End 
 
-## 📝 License
-
-This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
-
-## 🙏 Acknowledgements
-
-Acknowledgments and thank you messages. 
+The goal of the project was accomplished! 
+- the model has A 95% accuracy in determining wether or not a business, if given an SBA loan, will be likely to default.
+- the gui created with tkinter looks promising to take to full  development.
 
