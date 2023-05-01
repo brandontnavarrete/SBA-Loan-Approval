@@ -127,7 +127,7 @@ The goal is to create a Machine Learning Model that is able to have a high accur
 
 ## 🎈 Usage
 
-In a full devloped project and a better implemented GUI, A bank would use this model as an underlying evaluation to determine if an applicant is a safe investment. As a financial loan officer / advisor, this gives model gives them a new tool or safety net to keep a banks saftey score managed properly.
+In a fully developed project with a better-implemented GUI, a bank would use this model as an underlying evaluation to determine if an applicant is a safe investment. As a financial loan officer/advisor, this model gives them a new tool or safety net to keep a bank's safety score managed properly.
 
 ## ⚒️ Built With
 
