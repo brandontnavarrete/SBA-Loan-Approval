@@ -6,7 +6,7 @@
   <a href="#getting-started">Getting Started</a> •
   <a href="#usage">Usage</a> •
   <a href="#contributing">Contributing</a> •
-  <a href="#license">License</a>
+  
 </p>
 
 ## 🚀 Context
@@ -33,8 +33,7 @@ The goal is to create a Machine Learning Model that is able to have a high accur
     <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#built-with">Built With</a></li>
-    
-    <li><a href="#Coming to an End">Acknowledgements</a></li>
+    <li><a href="#Coming-to-an-End">Acknowledgements</a></li>
   </ul>
 </details>
 
@@ -74,36 +73,37 @@ The goal is to create a Machine Learning Model that is able to have a high accur
   
   #### Wrangle
   
-  - Begin with Kaggle dataset. [https://www.kaggle.com/datasets/mirbektoktogaraev/should-this-loan-be-approved-or-denied]
-  - Handle missing values
-  - Drop Columns that aren't helpful or columns that would contain data leakage
-  - Handle data types / date time for exploration
-  
-  Once I had a dataframe that look clean and managable, I saved it to a csv named ("explore.csv").
-  
-  
+ * Begin with Kaggle dataset: [https://www.kaggle.com/datasets/mirbektoktogaraev/should-this-loan-be-approved-or-denied].
+ * Handle missing values.
+ * Drop columns that aren't helpful or would contain data leakage.
+ * Handle data types/datetime for exploration.
+ 
+  Once I had a dataframe that looked clean and manageable, I saved it to a CSV named "explore.csv".
+
+
+
   #### Explore
   
   - Compared target variable count, there are more good standing accounts than charged off accounts.
-  - Checked for difference between `target` accounts ( term length, franchise status,...).
+  - Checked for differences between `target` accounts ( term length, franchise status,...).
   
   I recommend creating more pre-determined questions before exploration. I plan on taking this dataset to Tableau and PowerBi. I created a csv to go further in to modeling.
   
   #### Model
   
-  - Create and X and y split, where X is your features you want to model on and y is your dependent feature.
-  - Split the data appropriately. I chose train and test for cross validation.
+  - Create an X and y split, where X is the features you want to model on and y is your dependent variable.
+  - Split the data appropriately. I chose train and test (instead of train,validate,split)for cross validation.
   - Scale data appropriately. (StandardScaler*).
   - Grid_search helps fine tune a models performance.
   _ (Find Your Best Model With Your Best Features)
   
-  I checked my feature importance to see what was helping or hurting model performance, handled each feature as needed.
+  I checked my `feature_importance` to see what was helping or hurting model performance.(handled each feature as needed)
   
   #### GUI
   
-  - Create a function that can interact with tkinter frame. (.get)
+  - Create a function that can interact with tkinter frame. (.get*)
   _ Run the model in the function.
-  - Scale .get data and fit to model
+  - Scale (.get) data and fit to model
   - Function creates a new tkinter frame to display result
   
   - Create the main interface
